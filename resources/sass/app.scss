@@ -1,0 +1,30 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Toast customization
+.Vue-Toastification__toast {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.Vue-Toastification__toast--success {
+    background-color: #28a745;
+}
+
+.Vue-Toastification__toast--error {
+    background-color: #dc3545;
+}
+
+.Vue-Toastification__toast--warning {
+    background-color: #ffc107;
+}
+
+.Vue-Toastification__toast--info {
+    background-color: #17a2b8;
+}
