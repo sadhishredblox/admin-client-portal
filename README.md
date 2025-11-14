@@ -33,7 +33,7 @@ composer install
 
 ### 3. Install Node dependencies
 ```bash
-npm install
+npm install --legacy-peer-deps
 ```
 
 ### 4. Create environment file
